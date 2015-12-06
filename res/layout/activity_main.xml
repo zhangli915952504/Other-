@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.other.MainActivity" >
+
+    <Button
+        android:onClick="insert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="添加db数据" />
+    
+    <Button
+        android:onClick="delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="删除db数据" />
+    
+    <Button
+        android:onClick="update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="修改db数据" />
+    
+    <Button
+        android:onClick="click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="查询db数据" />
+
+</LinearLayout>
